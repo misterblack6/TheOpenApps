@@ -1,0 +1,305 @@
+@echo off
+title The Open Apps
+color 0e
+mode 105,40
+:inicio
+echo.
+echo=                                   Beta V1.2.0
+echo        --------------------------------------------------------------------------------
+echo=                               Menu,que quires abrir?
+echo              -----------------------------------------------------------------
+echo=
+echo=                          1. abrir calculadora
+echo=                          2. abrir youtube
+echo=                          3. abrir panel de control
+echo=                          4. abrir administrador de tareas
+echo=                          5. abrir explorador de archivos
+echo=                          6. abrir bloc de notas
+echo=                          7. ver informacion de windows
+echo=                          8. paint dibuja con el paint
+echo=                          9. abrir google chrome investiga!
+echo=                          10.abre word y escribe lo que quiras!
+echo=                          11.abre el dialogo de graficos de windows
+echo=                          12.abre la carpeta %appdata%
+echo=                          13.abre Excel
+echo=                          14.abre la configuracion del sistema
+echo=                          15.apaga tu computadora en 5 segundos
+echo=                          16.abre el CMD {simblo del sistema}
+echo=                          17.abre el administrador de dispositivos
+echo=                          18.abre Firefox {si es que lo tienes instalado}
+echo=                          19.reinicia tu computadora
+echo=                          20.reventar la computadora
+echo=                          21.abre netflix
+echo=                          22.Creditos
+echo=                          23.salir
+echo            -------------------------------------------------------------------
+echo     ------------------------------------------------------------------------------
+echo=                     presiona un numero y dale en la tecla Enter
+echo=                               Creditos:MrRecoveryy
+echo=                          suscribete a eberto mejia martinez
+echo.
+echo.
+set /p menu=Opcion= 
+
+if "%menu%"=="1" goto op1
+if "%menu%"=="2" goto op2
+if "%menu%"=="3" goto op3
+if "%menu%"=="4" goto op4
+if "%menu%"=="5" goto op5
+if "%menu%"=="6" goto op6
+if "%menu%"=="7" goto op7
+if "%menu%"=="8" goto op8
+if "%menu%"=="9" goto op9
+if "%menu%"=="10" goto op10 
+if "%menu%"=="11" goto op11
+if "%menu%"=="12" goto op12
+if "%menu%"=="13" goto op13
+if "%menu%"=="14" goto op14
+if "%menu%"=="15" goto op15
+if "%menu%"=="16" goto op16
+if "%menu%"=="17" goto op17
+if "%menu%"=="18" goto op18
+if "%menu%"=="19" goto op19
+if "%menu%"=="20" goto op20
+if "%menu%"=="23" goto salir
+if "%menu%"=="21" goto op21
+if "%menu%"=="22" goto op22
+:op1
+cls
+start calc.exe
+pause>nul
+cls
+goto inicio
+
+:op3
+cls
+start control
+pause>nul
+cls
+goto inicio
+
+
+:op2
+cls
+echo.
+set /p buscar=Buscar=
+start https://www.youtube.com/results?search_query=%buscar%
+pause>nul
+cls
+goto inicio
+
+:salir
+cls&exit
+
+
+:op4
+cls
+start taskmgr
+pause>nul
+cls
+goto inicio
+
+
+:op5
+cls
+start explorer
+pause>nul
+cls
+goto inicio
+
+
+
+:op6
+cls
+start notepad
+pause>nul
+cls
+goto inicio
+
+
+
+:op7
+cls
+start winver
+pause>nul
+cls
+goto inicio
+
+
+
+:op8
+cls
+start mspaint
+pause>nul
+cls
+goto inicio
+
+
+
+:op9
+cls
+echo.
+start chrome
+pause>nul
+cls
+goto inicio
+
+
+
+:op10
+cls
+start winword
+pause>nul
+cls
+goto inicio
+
+
+
+
+
+:op11
+cls
+echo.
+start dxdiag
+pause>nul
+cls
+goto inicio
+
+
+
+
+:op12
+cls
+echo.
+start %appdata%
+pause>nul
+cls
+goto inicio
+
+
+
+:op13
+cls
+start Excel
+pause>nul
+cls
+goto inicio
+
+
+
+
+
+:op14
+cls
+start MSCONFIG
+pause>nul
+cls
+goto inicio
+
+
+
+
+:op15
+cls
+echo.
+start shutdown.exe -s -t 5 -c "tu pc se apagara en 5 segundos"
+pause>nul
+cls
+goto inicio
+
+
+
+
+:op16
+cls
+start cmd
+pause>nul
+cls
+goto inicio
+
+
+:op17
+cls
+start  devmgmt. msc
+pause>nul
+cls
+goto inicio
+
+
+
+
+:op18
+cls
+start Firefox
+pause>nul
+cls
+goto inicio
+
+
+
+
+:op19
+cls
+start Shutdown.exe -r
+pause>nul
+cls
+goto inicio
+
+
+:op20
+bucle
+start chrome
+pause>nul
+cls
+goto inicio
+
+
+:op21
+cls
+start https://www.netflix.com/
+pause>nul
+cls
+goto inicio
+
+
+
+
+
+:salir
+start exit 
+pause>nul
+goto inicio
+
+:op22
+@echo off
+echo            @@@@@@@@@@@@@@   @                               @@@@@@       @@@@@@@@@@@@                   
+echo            @@               @                              @      @           @@              @@@@@@@@@
+echo            @@               @                  @@@@@@@     @      @           @@             @         @
+echo            @@               @                 @       @    @@@@@@@            @@             @         @
+echo            @@@@@@@@@@@@@@   @@@@@@@@@@        @       @    @ @                @@             @         @
+echo            @@               @         @       @@@@@@@@     @  @@              @@             @         @
+echo            @@               @         @       @            @   @              @@             @         @
+echo            @@               @        @        @            @    @             @@             @         @
+echo            @@               @       @          @           @    @             @@             @         @
+echo            @@@@@@@@@@@@@@   @@@@@@@@            @@@@@@     @    @             @@              @@@@@@@@@
+echo                                                                   @@             @@@
+echo           @ @          @ @      @@@@@@@@@@@@@         @@                        @   @
+echo           @  @        @  @      @                    @  @         @@           @     @
+echo           @   @      @   @      @                     @@          @@          @       @
+echo           @    @    @    @      @                                 @@         @         @ 
+echo           @     @  @     @      @@@@@@@@@@@@@         @@          @@        @           @
+echo           @      @@      @      @                     @@          @@        @@@@@@@@@@@@@
+echo           @              @      @                     @@          @@        @           @
+echo           @              @      @                     @@          @@        @           @
+echo           @              @      @                     @@          @@        @           @
+echo           @              @      @@@@@@@@@@@@@         @@          @@        @           @
+echo                                                   @   @@                    @           @
+echo                                                   @   @@
+echo                                                   @@  @@
+echo                                                    @@@@
+echo.
+echo             Gracias a MrRecoveryy, el Fue el Quien Me dio la Idea de hacer Este Pequeno proyecto.
+echo. 
+echo                         Copyright. 2021-2022.Eberto mejia LLC. All rights reserved
+pause>nul
+goto inicio
