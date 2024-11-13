@@ -269,35 +269,6 @@ goto inicio
 start exit 
 pause>nul
 goto inicio
-
-:op22
-@echo off
-echo            @@@@@@@@@@@@@@   @                               @@@@@@       @@@@@@@@@@@@                   
-echo            @@               @                              @      @           @@              @@@@@@@@@
-echo            @@               @                  @@@@@@@     @      @           @@             @         @
-echo            @@               @                 @       @    @@@@@@@            @@             @         @
-echo            @@@@@@@@@@@@@@   @@@@@@@@@@        @       @    @ @                @@             @         @
-echo            @@               @         @       @@@@@@@@     @  @@              @@             @         @
-echo            @@               @         @       @            @   @              @@             @         @
-echo            @@               @        @        @            @    @             @@             @         @
-echo            @@               @       @          @           @    @             @@             @         @
-echo            @@@@@@@@@@@@@@   @@@@@@@@            @@@@@@     @    @             @@              @@@@@@@@@
-echo                                                                   @@             @@@
-echo           @ @          @ @      @@@@@@@@@@@@@         @@                        @   @
-echo           @  @        @  @      @                    @  @         @@           @     @
-echo           @   @      @   @      @                     @@          @@          @       @
-echo           @    @    @    @      @                                 @@         @         @ 
-echo           @     @  @     @      @@@@@@@@@@@@@         @@          @@        @           @
-echo           @      @@      @      @                     @@          @@        @@@@@@@@@@@@@
-echo           @              @      @                     @@          @@        @           @
-echo           @              @      @                     @@          @@        @           @
-echo           @              @      @                     @@          @@        @           @
-echo           @              @      @@@@@@@@@@@@@         @@          @@        @           @
-echo                                                   @   @@                    @           @
-echo                                                   @   @@
-echo                                                   @@  @@
-echo                                                    @@@@
-echo.
 echo             Gracias a MrRecoveryy, el Fue el Quien Me dio la Idea de hacer Este Pequeno proyecto.
 echo. 
 echo                         Copyright. 2021-2022.Eberto mejia LLC. All rights reserved
