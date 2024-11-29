@@ -269,8 +269,8 @@ goto inicio
 start exit 
 pause>nul
 goto inicio
-echo             Gracias a MrRecoveryy, el Fue el Quien Me dio la Idea de hacer Este Pequeno proyecto.
+echo             Gracias a MrRecoveryy, él fué el quién me dió la idea de hacer este pequeño proyecto.
 echo. 
-echo                         Copyright. 2021-2022.Eberto mejia LLC. All rights reserved
+echo                         Copyright. 2021-2024. Mrblack Creations. All rights reserved
 pause>nul
 goto inicio
